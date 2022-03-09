@@ -1,0 +1,71 @@
+.App{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 2rem;
+}
+
+.top-menu{
+    display: flex;
+    border: 1px solid indigo;
+    padding: 2rem 5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.body-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    border: 1px solid indigo;
+}
+
+.edit-body-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    border: 1px solid indigo;
+}
+
+.footer-menu{
+    padding: 2rem 4rem;
+    border: 1px solid indigo;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.result-menu{
+    display: flex;
+    position: relative;
+    margin-top: 1rem;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.edit{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 3.5rem;
+}
+
+.delete{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+}
+
+.delete:hover{
+    transform: scale(1.2);
+}
+.edit:hover{
+    transform: scale(1.2);
+}

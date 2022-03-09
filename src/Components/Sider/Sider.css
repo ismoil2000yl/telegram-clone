@@ -1,0 +1,10 @@
+.listUsers{
+    cursor: pointer;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.listUsers:hover{
+    background-color: #0D6EFD;
+    color: white;
+}
